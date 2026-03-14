@@ -10,3 +10,17 @@ print ("my age is ", age )
 print(PI-4)
 
 print (name , age, PI)
+
+
+# Data TYPES
+
+# Integer , String , Float , Boolean , None
+
+print (type(age))
+
+
+
+'''
+Mulitline comment
+
+'''
