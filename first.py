@@ -24,3 +24,8 @@ print (type(age))
 Mulitline comment
 
 '''
+
+# Operators 
+
+# Arithmetic , Relational / Comprasion, Assignment , Logical
+
