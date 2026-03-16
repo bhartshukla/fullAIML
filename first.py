@@ -58,3 +58,32 @@ and
 or
 
 '''
+
+# Type Conversion  ------ compatible type 
+
+# Type Conversion (implicit - automatic by pyhton )
+
+ans  = 5  + 10.0  # ans  = 15.0 which is float value 
+
+print (type(ans))
+
+
+# Type Casting (Explicit - done by developer)
+
+ans2 = int(10+10.3)
+print(type(ans2))
+
+
+# User input -----------
+
+a = input("Enter your value : ") #string input by deafult 
+
+# print(a) 
+
+
+nums1 = int(input("Enter your num1"))
+nums2 = int(input("Enter your num2"))
+
+sum=(nums1+nums2)
+print(sum)
+
