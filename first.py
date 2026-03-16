@@ -27,5 +27,34 @@ Mulitline comment
 
 # Operators 
 
-# Arithmetic , Relational / Comprasion, Assignment , Logical
+# Arithmetic ( +,-,*,%,**) , Relational / Comprasion ( >=,>, <= , < , == , !=), Assignment (= , +=, ) , Logical (NOT , OR , AND)
 
+a = 5
+
+a += 4 # a = a+4
+
+print(not (5>8)) #true
+ 
+print((5>4) and (4>8)) # false 
+
+print((5>4) or (4>8)) #true
+
+# Bitwise 
+# Membership 
+
+'''
+
+## Operator Precedence ====----- 
+()
+**
+*,/,%
++,-
+
+==, !=, >, >=, <, <=
+
+not 
+and 
+
+or
+
+'''
