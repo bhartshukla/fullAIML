@@ -23,3 +23,14 @@ elif color == "green":
     print("You Can Go")    
 else:
     print("Invalid color")    
+
+
+
+age = int(input("Enter your number"))
+
+if age >= 18:
+    print("You are Adult")
+elif age<18 and age>5:    
+    print("you are teen")
+else:
+    print("you are under age or above age")
