@@ -13,24 +13,38 @@
 
 
 
-color = input("Enter Color : ")
+# color = input("Enter Color : ")
 
-if color == "red":
-    print("Stop Now")
-elif color == "yellow":
-    print("Slow Move")
-elif color == "green":
-    print("You Can Go")    
+# if color == "red":
+#     print("Stop Now")
+# elif color == "yellow":
+#     print("Slow Move")
+# elif color == "green":
+#     print("You Can Go")    
+# else:
+#     print("Invalid color")    
+
+
+
+# age = int(input("Enter your number"))
+
+# if age >= 18:
+#     print("You are Adult")
+# elif age<18 and age>5:    
+#     print("you are teen")
+# else:
+#     print("you are under age or above age")
+
+
+ # any input is odd or even
+
+number = int(input("Enter your number : "))
+
+if number == 0:
+        print("Your number is zero")
+elif number>1 and number % 2 ==0:
+        print("Even Number")
+elif number<=1:
+        print("Your number is less the 2")    
 else:
-    print("Invalid color")    
-
-
-
-age = int(input("Enter your number"))
-
-if age >= 18:
-    print("You are Adult")
-elif age<18 and age>5:    
-    print("you are teen")
-else:
-    print("you are under age or above age")
+        print("odd number")    
