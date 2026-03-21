@@ -48,3 +48,6 @@ elif number<=1:
         print("Your number is less the 2")    
 else:
         print("odd number")    
+
+
+        # if else done 
