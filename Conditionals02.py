@@ -51,3 +51,18 @@ else:
 
 
         # if else done 
+
+
+# Match case 
+
+color = input("Enter color : ") 
+
+match color:
+        case "green":
+                print("Go")
+        case "Yellow":
+                print("Look")
+        case "red":
+                print("stop")
+        case _:
+                print("Wrong COLOR ")                      
