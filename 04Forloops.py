@@ -1,0 +1,28 @@
+# For Loop generly use for sequential Traversal
+
+# string = "Bharat"
+
+# # in => Membership Operator
+
+# for var in string:
+#     print(var)
+
+
+
+# for i in range(10):
+#     print(i+1)
+
+
+'''
+
+word = "BharatShukla"
+count = 0
+for ch in word:
+    if(ch =='a'):
+        count+=1
+
+print("Count of a is : ", count)        
+
+'''
+
+
