@@ -58,9 +58,10 @@ for r in range(1,6,2):
 
 # print the sum of n naturan number
 
+n = int(input("Enter Your Number : "))
 sum = 0
 
-for num in range(11):
+for num in range(n+1):
     sum = sum+num
     print (num, "its sum is :", sum)
 
