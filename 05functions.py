@@ -1,3 +1,10 @@
+# types of function
+# 1) Built in----
+# 2) user defined ----
+
+
+
+
 def hello(): # fnx defination
     print("Hellow")
 
@@ -32,3 +39,7 @@ print(ans , "Its your avg ")
 
 
 
+# Lambda Function -- uses in high order function
+
+sum = lambda a,b: a+b
+print(sum(3,4))
