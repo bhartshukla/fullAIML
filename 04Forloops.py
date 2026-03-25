@@ -64,4 +64,3 @@ sum = 0
 for num in range(n+1):
     sum = sum+num
     print (num, "its sum is :", sum)
-
