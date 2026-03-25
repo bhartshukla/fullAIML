@@ -25,4 +25,14 @@ print("Count of a is : ", count)
 
 '''
 
+# print vowel count of a given String
+
+word = "BharatShuklajiis a good boy"
+count =0
+for ch in word:
+    if(ch=='a' or ch=='i' or ch=='e'or ch=='o' or ch=='u'):
+        count+=1
+        print(ch , count)
+print(count, "these numbers of vowel")      
+
 
