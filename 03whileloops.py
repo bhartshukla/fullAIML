@@ -65,6 +65,7 @@ while count >= 1:
 This program takes user input and prints its table from 1 to 10.
 Runs continuously using an infinite loop.
 """
+
 while True:
     num = int(input("Enter Your Number: "))
     i = 1
