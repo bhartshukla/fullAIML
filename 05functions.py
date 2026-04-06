@@ -41,5 +41,18 @@ print(ans , "Its your avg ")
 
 # Lambda Function -- uses in high order function
 
-sum = lambda a,b: a+b
-print(sum(3,4))
+# sum = lambda a,b: a+b
+# print(sum(3,4))
+
+
+# print of factrial of any number
+
+def fact(n):
+   fac = 1
+   for i in range(1,n+1):
+       fac = fac*i
+
+   return fac
+
+n = int(input("Enter your number : "))
+print(fact(n))
