@@ -30,7 +30,7 @@ l.reverse() #reverses Order
 '''
 
 num = [1 ,2,3]
-print (num)
+# print (num)
 
 # num.append(5)   
 # print (num)
@@ -38,12 +38,29 @@ print (num)
 # num.insert(2, 6)
 # print(num)
 
-nums = [4,6,3,9,2,10]
-nums.sort()
-print(nums)
+# nums = [4,6,3,9,2,10]
+# nums.sort()
+# print(nums)
 
-nums.sort(reverse=True)
-print(nums)
+# nums.sort(reverse=True)
+# print(nums)
 
-nums.reverse()
-print(nums)
+# nums.reverse()
+# print(nums)
+
+
+# ========== List with loops ===================
+
+numb = [3,4,5,6,72,3,4]  # [linear search]
+
+# for num in numb:
+#     print(num)
+
+n = 0
+v = 72
+for i in numb:
+    if (i == v):
+        print(f"{v} at index {n}")
+        break
+    n+=1
+        
