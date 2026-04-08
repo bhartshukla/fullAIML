@@ -1,7 +1,7 @@
 # LIST (Mutable sequence of values)
 
 '''
-arks_list =[89,90,89,87,96,45]
+marks_list =[89,90,89,87,96,45]
 
 print(marks_list)
 # print(len(marks_list))
@@ -12,9 +12,10 @@ marks_list[3] = 99
 
 print(marks_list)
 
-# slicing ----
+# slicing ---- ------------------------------------
 
 print(marks_list[1:5])
+print(marks_list[-6,-3])
 
 '''
 
@@ -39,6 +40,9 @@ print (num)
 
 nums = [4,6,3,9,2,10]
 nums.sort()
+print(nums)
+
+nums.sort(reverse=True)
 print(nums)
 
 nums.reverse()
