@@ -1,13 +1,14 @@
-# Variable 
+# Variable ,   name of varialbe are identifuers , python is case senstavive -----   ----- 
 
 name  = "bharta"
-age = 30
+age = 35
 PI = 3.14
 
 print ("my name is ", name )
 print ("my age is ", age )
 
 print(PI-4)
+print(age-5)
 
 print (name , age, PI)
 
@@ -17,6 +18,9 @@ print (name , age, PI)
 # Integer , String , Float , Boolean , None
 
 print (type(age))
+print (type(PI))
+print (type(name))
+
 
 
 
@@ -28,6 +32,9 @@ Mulitline comment
 # Operators 
 
 # Arithmetic ( +,-,*,%,**) , Relational / Comprasion ( >=,>, <= , < , == , !=), Assignment (= , +=, ) , Logical (NOT , OR , AND)
+
+# bitwise op
+
 
 a = 5
 
@@ -45,6 +52,8 @@ print((5>4) or (4>8)) #true
 '''
 
 ## Operator Precedence ====----- 
+
+Arithmetic --
 ()
 **
 *,/,%
