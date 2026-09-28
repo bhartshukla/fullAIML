@@ -67,3 +67,11 @@ match color:
         case _:
                 print("Wrong COLOR ")                      
           
+
+number = 10
+if(number==10):
+        print("10 number")
+elif number>=10:
+        print("not number")  
+else:
+        print("DONE")              

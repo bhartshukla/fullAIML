@@ -1,6 +1,6 @@
 # For Loop generly use for sequential Traversal
 
-# string = "Bharat"
+string = "Bharat"
 
 # # in => Membership Operator
 
@@ -13,17 +13,16 @@
 #     print(i+1)
 
 
-'''
+word = "BHARATAAAAAAAAAAAAA SHUKLA JI"
 
-word = "BharatShukla"
+# count the number of A
+
 count = 0
 for ch in word:
-    if(ch =='a'):
-        count+=1
-
-print("Count of a is : ", count)        
-
-'''
+    if(ch == "A"):
+        count = count+1
+# print(count)        
+    
 
 '''
 # print vowel count of a given String
@@ -56,11 +55,15 @@ for r in range(1,6,2):
     '''
 
 
-# print the sum of n naturan number
+# print the sum of n natural number
 
-n = int(input("Enter Your Number : "))
+# n = int(input("Enter your number"))
+n =10
+
 sum = 0
 
-for num in range(n+1):
-    sum = sum+num
-    print (num, "its sum is :", sum)
+for i in range(1,n+1):
+    sum = sum+i
+
+print(sum)    
+

@@ -1,28 +1,23 @@
 # LIST (Mutable sequence of values)
 
-'''
-marks_list =[89,90,89,87,96,45]
+# marks = [99,33,56,78,89,"APPLE", 10.99]
+# print(marks)
+# print(marks[2])
+# print(len(marks))
 
-print(marks_list)
-# print(len(marks_list))
+# marks[2] = 78
+# print(marks)
 
-# print(marks_list[4])
+# print(marks[1:6])
 
-marks_list[3] = 99
 
-print(marks_list)
 
-# slicing ---- ------------------------------------
 
-print(marks_list[1:5])
-print(marks_list[-6,-3])
-
-'''
 
 # ===========LIST METHODS or functions ++++++ ++++++
 '''
 
-l.appaend(val) # add one lement a the end
+l.appaend(val) # add one element a the end
 l.insert(idx, val) #insert element at idx
 l.sort()  # arrange in increasing order
 l.reverse() #reverses Order
@@ -30,23 +25,26 @@ l.reverse() #reverses Order
 '''
 
 num = [1 ,2,3]
-# print (num)
+print (num)
 
-# num.append(5)   
-# print (num)
+num.append(4)
+print (num)
 
-# num.insert(2, 6)
-# print(num)
+num.insert(1,6)
+print (num)
 
-# nums = [4,6,3,9,2,10]
-# nums.sort()
-# print(nums)
 
-# nums.sort(reverse=True)
-# print(nums)
+num2 = [3,4,2,9,5]
+num2.sort()
+print(num2)
 
-# nums.reverse()
-# print(nums)
+# num2.sort(reverse=True)
+# print(num2) 
+
+num2.reverse()
+print(num2)
+
+
 
 
 # ========== List with loops ===================

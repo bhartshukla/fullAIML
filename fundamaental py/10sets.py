@@ -1,12 +1,12 @@
-# Collection of unique elements
+# Collection of unique elements and its unorderd
 
 # python set can be mutable but set element cant be mutable
 
 s = {1,2,3,4,2,2,4,}
 
-# print(s)
-# print(len(s))
-# print(type(s))
+print(s)
+print(len(s))
+print(type(s))
 
 
 # s.add(6)

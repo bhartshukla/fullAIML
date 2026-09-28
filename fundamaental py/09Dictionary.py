@@ -1,30 +1,19 @@
 # Dictionary in python  and they are mutable
 
-# Key:Value Pairs
+# Key:Value Pairs and unorderd 
 
 dict = {
-    "NAME": "Bharat",
-    "cgpa": "9.2",
-    "sub": ["phy", "cs"],
+    "name": "BHARAT",
+    "agr" : 78,
+    "sub" : ["MATH", 'Scinece']
 }
 
-# DICT["cgpa"] = 9.7
-# print(type(DICT))
+dict["agr"] = 9.6
 
-# print(DICT["cgpa"])
+print(dict)
+print(type(dict))
 
-dict_keys = dict.keys()
-print(dict_keys)
-print(type (dict_keys))
-
-dict_keys = list(dict.keys())
-
-print(dict_keys)
-print(type (dict_keys))
-
-
-dict_values = dict.values()
-print(dict_values)
+print(dict["name"])
 
 
 #  ================   Dictionary Methods =================
@@ -41,9 +30,11 @@ print(dict_values)
 
 
 print(dict.items())
+print(dict.keys())
 
-print(dict.get("cgpa2"))  # read about .get(val)  and dict[] for getting the value
+# print(dict.get("cgpa2"))  # read about .get(val)  and dict[] for getting the value
 
+print(dict.get("m"))   # worng key but is not give error because .get return none 
 
 dict.update({
     "city" : "Lucknow"

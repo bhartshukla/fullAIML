@@ -27,8 +27,9 @@ STRING INDEXING
 ITERATING THROUGH STRING
 - Loop through each character
 '''
-# for ch in word:
-#     print(ch)
+
+for ch in word:
+    print(ch)
 
 
 '''
@@ -60,8 +61,9 @@ sum = a + b
 '''
 NORMAL FORMATTING (.format())
 '''
-print("Language is {}".format("python"))
-print("Sum of {} & {} is {}".format(a, b, sum))
+print("language is {}".format("PYTHON"))
+print("sum is {} ".format(sum))
+
 
 
 '''
@@ -82,5 +84,7 @@ print("Values of vars {a} & {b}".format(a=10, b=20))
 F-STRING FORMATTING (BEST & MODERN)
 - Easy and readable
 - Directly use variables inside {}
+ - litral string interpolation
+
 '''
-print(f"Sum of {a} & {b} is {a + b}")
+print(f"the sum of value of {a} and {b} = {a+b}")

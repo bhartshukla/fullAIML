@@ -1,5 +1,5 @@
 # types of function
-# 1) Built in----
+# 1) Built in---- print(),  type(), range()
 # 2) user defined ----
 
 
@@ -8,18 +8,19 @@
 def hello(): # fnx defination
     print("Hellow")
 
-hello() #fnx call
+hello() #fnx call 
 
-'''
+def heloo():
+    print("HELLO BHARAT")
 
-def sum (a,b):
-    s = a+b
-    return s
+heloo()   
 
-ans = sum(4,5)
-print(ans)
+def sum(a,b):
+    sum = a+b
+    return sum
+print(sum(4,5))     # 4 or  5 are argument
 
-'''
+
 
 # avg calculate 
 
@@ -41,8 +42,8 @@ print(ans , "Its your avg ")
 
 # Lambda Function -- uses in high order function
 
-# sum = lambda a,b: a+b
-# print(sum(3,4))
+sum = lambda a,b: a+b
+print(sum(3,4))
 
 
 # print of factrial of any number
@@ -54,5 +55,5 @@ def fact(n):
 
    return fac
 
-n = int(input("Enter your number : "))
-print(fact(n))
+# n = int(input("Enter your number : "))
+# print(fact(n))
