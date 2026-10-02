@@ -77,7 +77,7 @@ class laptop:
     storage_type = "SSD"
 
     @classmethod  # class decoratore
-    def get_storage(cls): # its a clas method
+    def get_storage(cls): # its a class method
         print(f"laptop storage type is {cls.storage_type}")
 
 
