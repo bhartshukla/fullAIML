@@ -1,0 +1,6 @@
+data collection
+data cleaning (pre-processing)
+data analysis
+data visualization 
+libraries -  numpy, oandas, matplotlib, seaborn
+
